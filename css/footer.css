@@ -1,0 +1,128 @@
+.footer{
+    background-color: #333333;
+    padding-bottom: 2rem;
+    font-family: var(--montserrat);
+}
+
+.footer .contenedor{
+    width:100%;
+}
+.footer .contenedor .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer .footer_logo{
+    width:100%;
+    max-width: 300px;
+    text-align: center;
+}
+.footer .contenedor h2{
+    text-align: center;
+    font-weight: 500;
+    padding: 0.5rem 0 0.5rem 0;
+    width:100%;
+    color:white;
+}
+
+
+
+.footer .secciones h1,.footer .ubicacion h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color:white;
+}
+
+.footer .secciones a:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    display:block;
+}
+
+.footer .ubicacion iframe{
+    width:80%;
+    border:2px solid white;
+    margin-bottom: 1rem;
+}
+
+.footer .ubicacion{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer>h2, .footer>p{
+ text-align: center;
+}
+
+.footer>h2 {
+    border-top: 2px solid #31ea1a;
+    padding-top: 1rem;
+    font-weight: 700;
+    color:white;
+}
+
+.footer>p{
+    text-decoration: underline;
+    padding-top: 1rem;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    color:#31ea1a;
+    
+}
+
+.footer .contenedor .secciones{
+    border-top:1px solid var(--color-resalto);
+    border-bottom: 1px solid var(--color-resalto);
+}
+
+.footer .secciones,.footer .ubicacion{
+    padding: 1rem 0 1rem 0;
+}
+/*estilo para boton scroll up*/
+.to-top{
+    position:fixed !important;
+    bottom:20px !important;
+    right:20px !important;
+    border-radius: 5px !important;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 2px;
+    cursor: pointer !important;
+    transition: all 0.4s ease 0s !important;
+    z-index: 1 !important;
+    display:none;
+}
+
+
+@media screen and (min-width:768px){
+.footer .contenedor{
+    display:flex;
+}
+.footer .contenedor div:first-child{
+    width:30%
+}
+.footer .contenedor div:nth-child(2){
+    width:30%
+}
+.footer .contenedor div:nth-child(3){
+    width:40%;
+}
+
+.footer .contenedor .secciones{
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid var(--color-resalto);
+    border-right: 1px solid var(--color-resalto);;
+}
+
+.footer>p:hover{
+    font-size: 1.2rem;
+    color:lightgreen;
+
+}
+
+}

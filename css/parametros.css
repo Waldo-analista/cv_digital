@@ -1,0 +1,38 @@
+:root{
+    --montserrat: 'Montserrat',sans-serif;
+    --poppins: 'Poppins',sans-serif;
+    --color-resalto:#55ab1f
+}
+
+
+
+.contenedor{
+    width:90%;
+    margin:0 auto;
+   }
+   
+body{
+
+ font-family: "Poppins",sans-serif;
+
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+    .contenedor{
+        width:80%;
+        margin:0 auto;
+       }
+       
+
+}
+    
+
+@media screen and (min-width:768px) and (max-width:1439px){
+ 
+
+}
+    

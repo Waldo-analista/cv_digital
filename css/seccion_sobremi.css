@@ -1,0 +1,74 @@
+.seccion_sobremi{
+    background-color: #1b1e26;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.seccion_sobremi .contenedor{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion_sobremi h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.seccion_sobremi p{
+    color:white;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.seccion_sobremi ul{
+    color:white;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    text-align: start;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+
+
+.seccion_sobremi .firma_completa{
+    width:100%;
+}
+
+.seccion_sobremi .div_texto ul{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (min-width:768px){
+    .seccion_principal .contenedor{
+     display: flex;
+     flex-direction: row;
+    } 
+    .seccion_principal .contenedor .div_texto{
+     width:70%;
+    }
+    .seccion_principal .contenedor .div_foto{
+     padding-top: 2rem;
+ 
+    }
+    .seccion_sobremi .firma_completa{
+        width:80%;
+    }
+ }
+
+ @media screen and (min-width:1024px){
+    .seccion_sobremi .contenedor{
+        width:60%;
+    }
+
+
+ }

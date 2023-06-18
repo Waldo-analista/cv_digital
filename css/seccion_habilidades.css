@@ -1,0 +1,117 @@
+.seccion_habilidades{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #EDEDED;
+}
+
+
+.seccion_habilidades h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.seccion_habilidades .contenedor h1{
+    color:var(--color-resalto);
+    font-family: var(--poppins);
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.seccion_habilidades h2{
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.seccion_habilidades p{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: var(--montserrat);
+    font-weight: 500;
+}
+
+.seccion_habilidades .contenedor_hardskills{
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.seccion_habilidades .contenedor_hardskills ul{
+    width:100%;
+    box-sizing: border-box;
+    padding: 0 1rem 0 1rem;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+
+.seccion_habilidades .contenedor_hardskills ul:nth-last-child(1){
+    padding-top: .5rem;
+}
+
+
+.seccion_habilidades .contenedor_softskills{
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.seccion_habilidades .contenedor_softskills ul{
+    width:100%;
+    box-sizing: border-box;
+    padding: 1rem 1rem 0 1rem;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+
+.seccion_habilidades .contenedor p {
+    line-height: 1.2rem;
+}
+
+
+@media screen and (min-width:768px){
+    .seccion_habilidades .contenedor_hardskills ul{
+        width:50%;
+    
+    }
+    .seccion_habilidades .contenedor_hardskills ul:nth-last-child(1){
+        width: 100%;
+    }
+
+    .seccion_habilidades .contenedor_softskills ul{
+        width:50%;
+    
+    }
+    .seccion_habilidades .contenedor_softskills ul:nth-last-child(1){
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .seccion_habilidades .contenedor_hardskills ul:nth-last-child(1) p{
+        width: 80%;
+    }
+    .seccion_habilidades .contenedor_softskills ul:nth-last-child(1) p{
+        width: 80%;
+    }
+
+
+ }
+

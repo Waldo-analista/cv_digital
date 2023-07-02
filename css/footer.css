@@ -65,12 +65,20 @@
     color:white;
 }
 
-.footer>p{
+.footer p:first-of-type{
     text-decoration: underline;
     padding-top: 1rem;
     font-family: var(--montserrat);
     font-weight: 700;
     color:#31ea1a;
+    
+}
+
+.footer p:last-of-type{
+    padding-top: 1rem;
+    font-family: var(--montserrat);
+    font-weight: 400;
+    color:white;
     
 }
 
@@ -119,10 +127,10 @@
     border-right: 1px solid var(--color-resalto);;
 }
 
-.footer>p:hover{
+.footer p:first-of-type:hover{
     font-size: 1.2rem;
     color:lightgreen;
-
 }
+
 
 }

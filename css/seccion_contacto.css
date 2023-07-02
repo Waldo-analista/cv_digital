@@ -65,6 +65,7 @@
     border-radius: 15px;
     font-weight: 700;
     border:1px solid black;
+    cursor: pointer;
 }
 
 .seccion_contacto .boton_contacto:hover{

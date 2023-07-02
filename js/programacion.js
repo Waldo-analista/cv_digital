@@ -29,7 +29,7 @@ function verificar_vacio_email(){
 function verificar_composicion_email_erronea(){
     if (verificar_vacio_email()==false){
     let contenido=String(document.querySelector("#email").value);
-    if (contenido.match(/(\w|d|\.|\-|_)+@\w+\.\w+/)){return 0}
+    if (contenido.match(/[a-zA-Z0-9._\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}/)){return 0}
     else{
         return 1;
     }   
